@@ -58,13 +58,6 @@ equal(90)  """
         t.forward(x)
         t.left(y) """
 
-""" def doubleSquares(iRange):
-    sidelength = 25
-    for i in range(iRange):
-        square(sidelength)
-        sidelength = sidelength * 2
-doubleSquares(5) """
-
 
 """ def addStars(iRange):
     length = 5
@@ -75,16 +68,34 @@ doubleSquares(5) """
 addStars(60) """
 
 
-""" def message(input):
-    print(input)
-message("Hello Class") """
+#Square spiral loop assesment
 
 
-def square(x):
-    for i in range(4)
-    t.forward(x)
-    t.left(90)
-def
+""" def square(x, y):
+    for i in range(5):
+        t.forward(x)
+        t.left(y)
+
+sidelength = 100
+rotate = 90
+def square(x,y):
+    for i in range(4):
+        t.forward(x)
+        t.left(y)
+
+
+def addSquares(iRange):
+    length = 5
+    for i in range(iRange):
+        square(length, 90)
+        length += 5
+        t.right(5)
+addSquares(60) """
+
+
+
+
+
 
 
 
