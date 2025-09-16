@@ -53,19 +53,19 @@ equal(90)  """
 
 #star code for challenge
 
-""" def star(x, y):
+def star(x, y):
     for i in range(5):
         t.forward(x)
-        t.left(y) """
+        t.left(y) 
 
 
-""" def addStars(iRange):
+def addStars(iRange):
     length = 5
     for i in range(iRange):
         star(length, 144)
         length += 5
         t.right(5)
-addStars(60) """
+addStars(60)
 
 
 #Square spiral loop assesment
